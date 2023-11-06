@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<script>
+    // Coletar o preço do produto
+    // Exibir calculo na forma de pagamento a vista com 10% de desconto
+    // Exibir calculo na forma de cartão 3x sem juros
+
+    const preco = Number(prompt("Qual o preço do produto?"));
+    const avista = preco - (preco * 0.1);
+    const parcelado = preco / 3;
+
+    alert(`Valor total: R$${preco.toFixed(2)}\nAVISTA: R$${avista.toFixed(2)}\nNO CARTÂO: R$${parcelado.toFixed(2)} 3x`);
+</script>
