@@ -13,7 +13,7 @@
 // 06) Ler 1 número. Se positivo, imprimir raiz quadrada senão o
 // quadrado do número.
 
-// 07) Ler um número e imprimir igual a 20, menor que 20, maior que
+// 07) Ler um número e imprimir se é igual a 20, menor que 20, maior que
 // 20.
 
 // 08) Crie um algoritmo que receba 3 números e informe qual o maior

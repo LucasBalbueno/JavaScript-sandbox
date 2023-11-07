@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script>
+    const num = Number(prompt("Digite um número:"));
+
+    // MÓDULO OU SOBRA É REPRESENTADO POR %, A SINTAXE RESUME: QUANTAS VEZES O DOIS CABE DENTRO DE "num", SE SOBRAR ZERO, ENTÃO O NÚMERO É PAR, SE SOBRAR UM O NÚMERO É IMPAR
+    // 8 % 3 (retorna 2; como três cabe duas vezes em 8, deixando 2 como resto.)
+    const sobra = num % 2;
+
+    if (sobra == 0) {
+        alert(`O número ${num} é PAR!`)
+    } else {
+        alert(`O número ${num} é IMPAR!`)
+    }
+
+</script>
