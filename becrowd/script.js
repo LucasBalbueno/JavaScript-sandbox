@@ -1,9 +1,10 @@
 var input = require("fs").readFileSync("dev/stdin", "utf8");
 var lines = input.split("\n");
 
-const pi = 3.14159;
-let raio = Number(lines[0]);
+const A = parseFloat(lines[0]);
+const B = parseFloat(lines[1]);
+const C = parseFloat(lines[2]);
 
-let volume = 4/3.0 * pi * (raio * raio * raio)
+const MEDIA = ((A*2) + (B*3) + (C*5)) / (2 + 3 + 5)
 
-console.log(`VOLUME = ${area.toFixed(3)}`);
+console.log(`MEDIA = ${MEDIA.toFixed(1)}`);
