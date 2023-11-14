@@ -1,0 +1,30 @@
+// ATRIBUIÇÃO POR VALOR:                       NA ATRIBUIÇÃO NORMAL, ATRIBUIMOS A VARIAVEL a NA b, PORÉM QUANDO MUDAMOS A a O VALOR b NÃO MUDA TAMBÉM.
+let a = 4
+let b = a
+
+a = 3
+
+console.log(a);
+console.log(b);
+
+
+// ATRIBUIÇÃO POR REFERENCIA:               JÁ NA ATRIBUIÇÃO POR REFERENCIA A VARIAVEL c E d APONTAM PARA A MESMA MEMÓRIA, TENDO UM COMO REFERENCIA DE OUTRO, LOGO AO MUDAR UM, TAMBÉM MUDARÁ O OUTRO.
+const c = {name: 'teste'}
+const d = a
+
+b.name = 'Lucas'
+
+console.log(a);
+console.log(b);
+
+
+//UNDEFINED                          QUANDO UMA VARIAVEL É INICIALIZADA MAS NÃO FOI ATRIBUIDO NENHUM VALOR A ELA
+let e;     
+console.log(e)  //SAÍDA: UNDEFINED
+
+// NULL                             QUANDO A VARIAVEL TEM AUSENCIA DE VALOR
+let f = null
+console.log(f)
+
+// O UNDEFINED É USADO APENAS PELA PRÓPRIA LINGUAGEM PARA DIZER QUE UM VALOR NÃO FOI INICIADO
+// QUANDO QUEREMOS ZERAR UMA VARIAVEL, USAMOS NULL
