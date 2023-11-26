@@ -1,0 +1,24 @@
+// O BREAK QUEBRA A O BLOCO DO CÓDIGO, ASSIM, SAINDO DO ESCOPO DE BLOCO
+// O BREAK NÃO TEM EFEITO EM ESTRUTURAS IF, APENAS NO SWITCH E LAÇOS FOR E WHILE (AINDA SIM, É POSSIVEL CRIAR UMA CONDIÇÃO COM IF PARA BREAK)
+
+// ENQUANTO O BRAKE SAI DO BLOCO DO CÓDIGO, O CONTINUE INTERROMPE O BLOCO ATUAL E PASSA PARA O PRÓXIMO
+
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for ( x in nums) {
+    if ( x == 5) {
+        break
+    }
+    console.log(nums[x])       // CONTA ATÉ 5 POIS QUEBRA NO 5
+}
+
+console.log('=========================')
+
+for ( x in nums) {
+    if (x == 5) {
+        continue
+    }
+    console.log(nums[x])      // CONTA ATÉ 5 => CAI NA CONDIÇÃO IF => INTERROMPE NA CONDIÇÃO => PASSA PARA O PRÓXIMO BLOCO (FOR) QUE CONTINUA A CONTAGEM ATÉ O 10
+}
+
+// O USO DO BREAK E CONTINUE DEVE SER DESENCORAJADO, POIS A FORMAS MELHORES DE CONTROLAR A SAIDA E ENTRADA DE BLOCOS DE CÓDIGO
