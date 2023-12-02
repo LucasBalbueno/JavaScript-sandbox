@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Locadora</title>
+</head>
+<body>
+    <h1>Filmes em cartazes</h1>
+    <form id="formFilme">
+        <div>
+            <label for="inNome">Nome do filme</label>
+            <input type="text" id="inNome">
+        </div>
+        <div>
+            <label for="inTempo">Duração em minutos</label>
+            <input type="number" id="inTempo">
+        </div>
+
+        <button type="submit" id="tempoBtn">Converter Tempo</button>
+    </form>
+
+    <div>
+        <h2 id="outTitulo"></h2>
+        <h3 id="outTempo"></h3>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
