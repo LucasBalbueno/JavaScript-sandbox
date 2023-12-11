@@ -5,7 +5,7 @@ function soma () {};
 
 
 
-// function expression - Função anõnima
+// function expression - Função anônima
 const soma2 = function (x, y) {}
 // Desvantagem: Não podemos chamar a função antes de criamos ela. Apenas depois.
 // declaração muito usada
